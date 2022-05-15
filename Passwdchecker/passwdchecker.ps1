@@ -47,4 +47,3 @@ while True:
 	
 if(valid_pass):
 	print (Fore.GREEN + "Good Password as it meets all the security requirements")
-
