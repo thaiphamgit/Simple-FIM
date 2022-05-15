@@ -64,7 +64,7 @@ if ($response -eq "B".ToUpper()) {
     while ($true) {
         Start-Sleep -Seconds 1
         
-        $files = Get-ChildItem -Path '.\Files', '.\Passwdchecker'
+        $files = Get-ChildItem -Path '.\Files', '.\FIM'
 
         # For each file, calculate the hash, and write to baseline.txt
         foreach ($f in $files) {
